@@ -2,9 +2,9 @@ print("输入小明考试成绩，查看所获奖励")
 grade = int(input("\n请输入考试成绩："))
 if grade == 100:
     print("\n恭喜你，爸爸准备给你买辆车啦！")
-if grade >= 90:
+elif grade >= 90:
     print("\n恭喜你，妈妈准备给你买MP4啦！")
-if grade >= 60 and grade < 90:
+elif grade >= 60:
     print("\n妈妈准备给你买本参考书提高提高你的水平！")
 else:
     print("\n很遗憾，由于你此次考试成绩太差，爸爸妈妈什么都不给你买！")
